@@ -18,3 +18,9 @@ myArray.shift();
 //splice and slice
 
 console.log(`A `, myArray);
+
+const myn1 = myArray.slice(1, 4);
+console.log(`myn1 `, myn1);
+console.log(`B `, myArray);
+
+// const myn2 = myArray.sp
