@@ -23,6 +23,6 @@ const myn1 = myArray.slice(1, 4);
 console.log(`myn1 `, myn1);
 console.log(`B `, myArray);
 
-const myn2 = myArray.splice(1, 6, `lelebeta`);
+const myn2 = myArray.splice(1, 6, `ji han`);
 console.log(`myn2 `, myn2);
 console.log(`B `, myArray);
