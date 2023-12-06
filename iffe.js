@@ -7,3 +7,4 @@
 ((name) => {
   console.log(`DB CONNECTTED TO ${name}`);
 })("Laxminarayan");
+
