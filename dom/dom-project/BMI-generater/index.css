@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 3rem;
+  text-align: center;
+}
+span {
+  margin: 2rem;
+}
+input {
+  margin: 2rem;
+  padding: 1rem;
+}
