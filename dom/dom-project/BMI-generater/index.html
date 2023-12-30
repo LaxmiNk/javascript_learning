@@ -7,10 +7,29 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="clock"></div>
+    <div class="clock"></div>
     <form action="">
-        <h1>BMI Calculater</h1>
-        <label for=""></label>
+      <h1>BMI Calculater</h1>
+      <div>
+        <label for="weight"> Enter your weight : </label>
+        <input type="text" id="weight" />
+      </div>
+      <div>
+        <label for="height"> Inter your height in cm : </label>
+        <input type="text" id="height" />
+      </div>
+      <div>
+        <button type="submit">Calculate</button>
+      </div>
+      <div id="result"></div>
     </form>
-    
+    <h2>some information</h2>
+    <ul>
+      <li>if your BMI is less than 50 you are under weight</li>
+      <li>if your BMI is greater than 60 you are under weight</li>
+      <li>else you are fit</li>
+    </ul>
+    <script src="./index.js"></script>
   </body>
 </html>
