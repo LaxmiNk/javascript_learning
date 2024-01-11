@@ -1,0 +1,18 @@
+* {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+button {
+  height: 2rem;
+  width: 5rem;
+}
+form {
+  background-color: aquamarine;
+}
+input,
+button {
+  border-radius: 1rem;
+  text-align: center;
+}
