@@ -36,7 +36,7 @@ function calculate() {
     }
   }
 }
-const clock = document.getElementsByClassName(`clock`);
+const clock = document.getElementsByClassName(`clock`); // this will give html collection
 setInterval(function () {
   const date = new Date();
   clock[0].innerText = date.toLocaleTimeString();
